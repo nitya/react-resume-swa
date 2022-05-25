@@ -6,7 +6,7 @@ function App() {
     <CV
       personalData={{
         name: "Ada Lovelace",
-        title: "Foundational Programmer",
+        title: "The Foundational Programmer",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Ada_Lovelace_color.svg/1280px-Ada_Lovelace_color.svg.png",
         contacts: [
           { type: "email", value: "ada@lovelace.dev" },
