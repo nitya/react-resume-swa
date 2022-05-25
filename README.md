@@ -132,3 +132,26 @@ Followed the [basic usage](https://www.npmjs.com/package/mark-react-cv) guidelin
 ![](./img/03-ada-resume.png)
 
 Let's commit it and see what happens to the hosted version!
+
+---
+
+## 4. Abstract data into a JSON file
+
+
+---
+
+## 5. Retrieve JSON from a managed API
+
+
+---
+
+## 6. Move managed API to standalone API 
+
+---
+
+## 7. Integrate API with database for dynamic updates
+
+---
+
+## 8. Congratulations - you have a full-stack resume site!
+
