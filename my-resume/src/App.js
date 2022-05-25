@@ -13,7 +13,7 @@ function App() {
           { type: "phone", value: "+00 (123) 456 78 90" },
           { type: "location", value: "New York" },
           { type: "website", value: "ada-rocks.com" },
-          { type: "linkedin", value: "linkedin.com/in/notexists" },
+          { type: "linkedin", value: "linkedin.com/in/ada" },
           { type: "twitter", value: "twitter.com/404" },
           { type: "github", value: "github.com/404" },
         ],
