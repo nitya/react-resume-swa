@@ -105,3 +105,30 @@ I've already installed this in the past, so when I take option 1 above - it laun
 Want to learn more about how you can develop/debug Azure Static Web Apps with VS Code? [Read this article](https://www.azurestaticwebapps.dev/blog/devtools-vscode) fron the #30DaysOfSWA series.
 
 ---
+
+## 3. Customize to a Resume Format
+
+For a quick demo, I simply searched [npm](https://www.npmjs.com/) for any pre-existing React component packages that could support building a resume. Here are a few:
+ * [React CV](https://www.npmjs.com/package/mark-react-cv) for a customizable and printable 1-page CV.
+ * [React CV Builder](https://www.npmjs.com/package/react-cv-builder) for a more componentized version
+
+To keep it simple, let's try the first one.
+
+### 3.1 Add Dependency
+
+For now I'll use the `--legacy-peer-deps` to get around some dependency issues for that package given latest React versions.
+
+
+```
+cd my-resume
+npm install react-cv --save --legacy-peer-deps
+```
+
+### 3.1 Basic Usage
+
+Followed the [basic usage](https://www.npmjs.com/package/mark-react-cv) guidelines in the npm documentation - except I used the [more detailed format](https://github.com/sbayd/react-cv/blob/master/example/src/data.js) to get the full-resume effect. I did minimal customization of the data - then tried it on my local dev server:
+
+
+![](./img/03-ada-resume.png)
+
+Let's commit it and see what happens to the hosted version!
